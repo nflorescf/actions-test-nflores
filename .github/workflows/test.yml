@@ -5,3 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: nflorescf/gh-actions-for-cf@testing
+        with:
+          who-to-greet: 'CoinFabrik'
