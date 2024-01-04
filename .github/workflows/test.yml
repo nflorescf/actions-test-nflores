@@ -4,4 +4,4 @@ jobs:
   analyze:
     runs-on: ubuntu-latest
     steps:
-      - uses: nflores-cf/gh-actions-for-cf@testing
+      - uses: nflorescf/gh-actions-for-cf@testing
