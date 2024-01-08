@@ -4,6 +4,6 @@ jobs:
   analyze:
     runs-on: ubuntu-latest
     steps:
-      - uses: nflorescf/gh-actions-for-cf@testing
+      - uses: coinfabrik/gh-actions-for-cf@v1.0.1
         with:
-          who-to-greet: 'CoinFabrik'
+          who-to-greet: 'CoinFabrik 08-01'
