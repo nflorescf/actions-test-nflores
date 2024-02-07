@@ -4,6 +4,14 @@ jobs:
   analyze:
     runs-on: ubuntu-latest
     steps:
+       - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Upload TOML file
+        uses: actions/upload-artifact@v2
+        with:
+          name: toml-artifact
+          path: test.toml    
       - uses: coinfabrik/gh-actions-for-cf@v1.0.1
         with:
           who-to-greet: 'CoinFabrik 08-01'
