@@ -12,6 +12,6 @@ jobs:
         with:
           name: toml-artifact
           path: test.toml    
-      - uses: coinfabrik/gh-actions-for-cf@v1.0.3
+      - uses: coinfabrik/gh-actions-for-cf@v1.0.4
         with:
           who-to-greet: 'CoinFabrik 08-01'
