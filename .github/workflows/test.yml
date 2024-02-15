@@ -7,11 +7,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Upload TOML file
-        uses: actions/upload-artifact@v2
+      - uses: coinfabrik/scout-actions@test
         with:
-          name: toml-artifact
-          path: test.toml    
-      - uses: coinfabrik/gh-actions-for-cf@v1.0.4
-        with:
-          who-to-greet: 'CoinFabrik 08-01'
+          target: './target/test.toml'
