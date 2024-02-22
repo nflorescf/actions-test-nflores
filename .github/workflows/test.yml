@@ -9,4 +9,4 @@ jobs:
 
       - uses: coinfabrik/scout-actions@test.v.1.0.8
         with:
-          target: './target/test.toml'
+          target: './target/Cargo.toml'
