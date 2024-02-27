@@ -7,6 +7,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - uses: coinfabrik/scout-actions@test.v.1.0.8
+      - uses: coinfabrik/scout-actions@test.v.1.0.9
         with:
           target: './target/Cargo.toml'
