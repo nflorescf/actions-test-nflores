@@ -10,4 +10,4 @@ jobs:
       - uses: coinfabrik/scout-actions@v2.2
         with:
           target: './target/'
-          scout_Args: '--output-format html'
+          scout_args: '--output-format html'
